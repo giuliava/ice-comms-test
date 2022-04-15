@@ -1,0 +1,521 @@
+/* Elements */
+html, body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 1440px;
+  line-height: normal;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 30px 30px;
+}
+
+h1, h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar-nav li {
+  margin: 0 15px;
+  padding: 0;
+  color: #000;
+}
+
+.navbar-nav a {
+  color: #000 !important;
+}
+
+.navbar-nav a:hover {
+  color: #5e5e5e !important;
+  transition: 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: #5e5e5e;
+  transition: 0.3s ease;
+}
+
+.nav-button .navigation-button {
+  color: #fff !important;
+  background-color: #000;
+  padding: 10px 15px;
+  align-self: flex-start !important;
+}
+
+.nav-button .navigation-button:hover {
+  color: #fff !important;
+  background-color: #5e5e5e;
+  transition: 0.3s ease;
+}
+
+/* Main */
+.main-container {
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #000;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+
+.hero-text-wrap {
+  color: #fff;
+  margin: 150px 21%;
+}
+
+.hero-text-wrap h1 {
+  margin-top: 0;
+}
+
+.hero-text-wrap a {
+  color: #fff;
+  margin: 20px 0;
+}
+
+.hero-text-wrap a:hover {
+  color: #c2c2c2;
+  transition: 0.3s ease;
+}
+
+.white-link, .black-link {
+  margin-top: 50px;
+}
+
+.white-arrow, .black-arrow {
+  padding-left: 20px;
+}
+
+.hero-image-wrap {
+  width: 55%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Section 1 */
+.inner-section-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fff;
+}
+
+.image-section-1-wrap {
+  width: 55%;
+}
+
+.image-section-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-1-text {
+  color: #000;
+  width: 45%;
+}
+
+.section-1-text-wrap {
+  margin: 150px 20%;
+}
+
+.section-1-text-wrap h2 {
+  margin-top: 0;
+}
+
+.section-1-text-wrap a {
+  color: #000;
+  margin: 20px 0;
+}
+
+.section-1-text-wrap a:hover {
+  color: #5e5e5e;
+  transition: 0.3s ease;
+}
+
+/* Section 2 */
+.inner-section-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fff;
+}
+
+.section-2-text {
+  color: #000;
+  width: 45%;
+}
+
+.section-2-text-wrap {
+  margin: 150px 20%;
+}
+
+.section-2-text-wrap h2 {
+  margin-top: 0;
+}
+
+.section-2-text-wrap a {
+  color: #000;
+  margin: 20px 0;
+}
+
+.section-2-text-wrap a:hover {
+  color: #5e5e5e;
+  transition: 0.3s ease;
+}
+
+.image-section-2-wrap {
+  width: 55%;
+}
+
+.image-section-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Stories Section */
+.stories-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: baseline;
+}
+
+.story-1 {
+  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 100%;
+}
+
+.story-2 {
+  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/cityscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 100%;
+}
+
+.story-3 {
+  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/hiker.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 100%;
+}
+
+.story-4 {
+  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/building.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 100%;
+}
+
+.story-wrap {
+  color: #fff;
+  margin: 20px;
+  margin-top: 350px;
+}
+
+.story-wrap h4 {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.story-wrap p {
+  font-size: 0.9rem;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.line-divider {
+  border: 0.3px solid;
+  border-top: 0;
+  margin: 5px auto;
+}
+
+.story-wrap a {
+  color: #fff;
+}
+
+.story-wrap a:hover {
+  color: #c2c2c2;
+  transition: 0.3s ease;
+}
+
+.story-link {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Icons Section */
+.icons-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 90px;
+}
+
+.icons-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.icon {
+  margin: 20px;
+  padding: 10px;
+}
+
+.icon img {
+  padding: 30px;
+}
+
+.icon-2 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.footer-1 {
+  max-width: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media {
+  margin-top: 100px;
+}
+
+.social-media-icon {
+  width: 15%;
+  height: 15%;
+}
+
+.footer-menu {
+  margin-left: 30px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 23px;
+}
+
+.footer-menu a {
+  color: #fff;
+  font-weight: normal;
+}
+
+.footer-menu a:hover {
+  color: #5e5e5e;
+  transition: 0.3s ease;
+}
+
+.footer-2 a {
+  color: #fff;
+}
+
+.footer-2 a:hover {
+  color: #c2c2c2;
+  transition: 0.3s ease;
+}
+
+.footer-2 p {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  margin-top: 105px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 840px) and (min-width: 768px) {
+  .story-2 h4 {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero-text, .section-1-text, .section-2-text {
+    width: 65%;
+  }
+
+  .hero-text-wrap, .section-1-text-wrap, .section-2-text-wrap {
+    margin: 150px 15%;
+  }
+
+  .hero-image-wrap, .image-section-1-wrap, .image-section-2-wrap {
+    width: 35%;
+  }
+
+  .stories-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .story-1, .story-2, .story-3, .story-4 {
+    width: 50%;
+  }
+
+  .icons-container {
+    padding: 70px;
+  }
+
+  .icons-wrap {
+    display: block;
+  }
+
+  .icon-2 {
+    margin: 0 auto;
+  }
+
+  .icon img {
+    margin: 20px auto;
+  }
+
+  .footer-wrap {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 580px) {
+
+  .hero-section, .inner-section-1, .inner-section-2 {
+    display: block;
+  }
+
+  .hero-text, .section-1-text, .section-2-text {
+    width: 100%;
+  }
+
+  .hero-text-wrap, .section-1-text-wrap, .section-2-text-wrap {
+    margin: 150px 15%;
+  }
+
+  .hero-image-wrap, .image-section-1-wrap, .image-section-2-wrap {
+    width: 100%;
+  }
+
+  .inner-section-1 {
+    border-bottom: 1px solid #000;
+  }
+
+  .stories-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .story-1, .story-2, .story-3, .story-4 {
+    width: 100%;
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .footer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media {
+    margin-top: 30px;
+  }
+
+  .footer-menu {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .footer-2 {
+    margin-top: 50px;
+  }
+
+  .footer-2 P {
+    margin-top: 10px;
+  }
+
+}
