@@ -404,10 +404,17 @@ p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 840px) and (min-width: 768px) {
-  .story-2 h4 {
-    font-size: 0.95rem;
+@media screen and (max-width: 840px) and (min-width: 580px) {
+   .stories-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
+  .story-1, .story-2, .story-3, .story-4 {
+    width: 50%;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -422,16 +429,6 @@ p {
 
   .hero-image-wrap, .image-section-1-wrap, .image-section-2-wrap {
     width: 35%;
-  }
-
-  .stories-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .story-1, .story-2, .story-3, .story-4 {
-    width: 50%;
   }
 
   .icons-container {
