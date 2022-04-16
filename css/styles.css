@@ -239,7 +239,7 @@ p {
 }
 
 .story-1 {
-  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/mountains.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/mountains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -248,7 +248,7 @@ p {
 }
 
 .story-2 {
-  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/cityscape.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/cityscape.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -257,7 +257,7 @@ p {
 }
 
 .story-3 {
-  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/hiker.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/hiker.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -266,10 +266,10 @@ p {
 }
 
 .story-4 {
-  background-image: url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/building.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://ice-nas.fra1.digitaloceanspaces.com/development/play/building.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   width: 25%;
   height: 100%;
 }
@@ -457,25 +457,24 @@ p {
 @media screen and (max-width: 580px) {
 
   .hero-section, .inner-section-1, .inner-section-2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .hero-text, .section-1-text, .section-2-text {
+    order: 2;
     width: 100%;
     margin: 0;
     padding: 0;
   }
 
   .hero-text-wrap, .section-1-text-wrap, .section-2-text-wrap {
-    margin: 70px 10%;
+    margin: 100px 70px;
   }
 
   .hero-image-wrap, .image-section-1-wrap, .image-section-2-wrap {
     width: 100%;
-  }
-
-  .inner-section-1 {
-    border-bottom: 1px solid #000;
+    order: 1;
   }
 
   .stories-container {
